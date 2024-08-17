@@ -1,8 +1,8 @@
 # terraform/main.tf
 provider "aws" {
   region = "ap-south-1"
-  access_key = "AKIA6GDMU2BBEDH47NJA"
-  secret_key = "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"
+  access_key = "my-access-key-ppppppppppppppp"
+  secret_key = "my-secret-key-ppppppppppppppp"
 }
 
 resource "aws_vpc" "bot_vpc" {
